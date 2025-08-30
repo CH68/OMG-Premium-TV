@@ -221,7 +221,7 @@ const renderConfigPage = (protocol, host, query, manifest) => {
            </style>
        </head>
        <body>
-           <video autoplay loop muted id="background-video">
+           <video poster muted id="background-video">
                <source src="https://static.vecteezy.com/system/resources/previews/001/803/236/mp4/no-signal-bad-tv-free-video.mp4" type="video/mp4">
                Il tuo browser non supporta il tag video.
            </video>
