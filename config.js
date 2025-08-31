@@ -21,7 +21,7 @@ const baseConfig = {
         version: '1.0.0',
         name: 'OMG TV',
         description: 'Modalita provvisoria, installazione con errori, attivo mod. provvisoria',
-        logo: 'https://github.com/CH68/OMG-TV-Stremio-Addon/blob/main/tv.png?raw=true',
+        logo: 'https://github.com/mccoy88f/OMG-TV-Stremio-Addon/blob/main/tv.png?raw=true',
         resources: ['stream', 'catalog', 'meta'],
         types: ['tv'],
         idPrefixes: ['tv'],
