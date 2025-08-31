@@ -224,7 +224,7 @@ const renderConfigPage = (protocol, host, query, manifest) => {
                </div>
                
                <div class="config-form">
-                   <h2>Genera Configurazione</h2>
+                   <h2>Generate Configuration</h2>
                    <form id="configForm" onsubmit="updateConfig(event)">
                        <label>M3U URL:</label>
                        <input type="text" name="m3u" 
@@ -249,7 +249,7 @@ const renderConfigPage = (protocol, host, query, manifest) => {
                            Enable EPG
                        </label>
 
-                       <label>Lingua Canali:</label>
+                       <label>Channel Language:</label>
                        <select name="language" style="width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #666; background: #333; color: white;">
                            <option value="Italiano" ${(query.language || 'Italiano') === 'Italiano' ? 'selected' : ''}>Italiano</option>
                            <option value="English" ${query.language === 'English' ? 'selected' : ''}>English</option>
@@ -312,7 +312,7 @@ const renderConfigPage = (protocol, host, query, manifest) => {
                    <div class="bottom-buttons">
                        <button onclick="backupConfig()">BACKUP CONFIG</button>
                        <input type="file" id="restoreFile" accept=".json" style="display:none;" onchange="restoreConfig(event)">
-                       <button onclick="document.getElementById('restoreFile').click()">Restore CONFIGURAZIONE</button>
+                       <button onclick="document.getElementById('restoreFile').click()">Restore CONFIG</button>
                    </div>
                    <div style="margin-top: 15px; background: rgba(255,255,255,0.1); padding: 1px; border-radius: 4px;">
                        <ul style="text-align: center; margin-top: 10px;">
